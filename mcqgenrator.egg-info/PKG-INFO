@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mcqgenrator
+Version: 0.0.1
+Author: aditya varpe
+Author-email: adi.varpe117@gmail.com
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: pyPDF2
+Requires-Dist: python-dotenv

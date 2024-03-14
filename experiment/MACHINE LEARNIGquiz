@@ -1,0 +1,8 @@
+,MCQ,choices,correct
+0,Who coined the term 'machine learning' in 1959?,a : Alan Turing | b : Arthur Samuel | c : Donald Hebb | d : Tom M. Mitchell,b
+1,What was the earliest machine learning model introduced in the 1950s by Arthur Samuel?,a : Program for calculating winning chance in chess | b : Program for analyzing sonar signals | c : Program for recognizing speech patterns | d : Program for calculating winning chance in checkers,d
+2,Who proposed the early mathematical models of neural networks in machine learning?,a : Warren McCulloch | b : Tom M. Mitchell | c : Donald Hebb | d : Arthur Samuel,a
+3,Which book by Canadian psychologist Donald Hebb introduced a theoretical neural structure in 1949?,a : The Organization of Behavior | b : Learning Machines | c : Computing Machinery and Intelligence | d : The Organization of Artificial Neurons,a
+4,"According to Tom M. Mitchell, what is the definition of machine learning algorithms?",a : Learning from experience with respect to tasks and performance measure | b : Studying human cognitive processes | c : Using supervised learning for predictions | d : Improving computer vision accuracy,a
+5,What is one of the objectives of modern-day machine learning?,a : Creating complex neural networks | b : Predicting future outcomes based on data models | c : Analyzing historical data only | d : Using reinforcement learning exclusively,b
+6,How does a machine learning algorithm for stock trading contribute to decision-making?,a : By classifying data based on developed models | b : By predicting future potential outcomes | c : By analyzing speech patterns | d : By using unsupervised learning exclusively,b

@@ -1,0 +1,8 @@
+,MCQ,choices,correct
+0,Who coined the term 'machine learning' in 1959?,a : Donald Hebb | b : Walter Pitts | c : Arthur Samuel | d : Warren McCulloch,c
+1,What was the name of the experimental 'learning machine' developed by Raytheon Company in the early 1960s?,a : Cyberdyne | b : Cybernetic | c : Cybertron | d : Cyberspace,c
+2,Who proposed the early mathematical models of neural networks in machine learning?,a : Tom M. Mitchell | b : Donald Hebb | c : Raytheon Company | d : Warren McCulloch,d
+3,What is the main objective of modern-day machine learning?,a : To memorize data | b : To predict future outcomes | c : To delete data | d : To confuse users,b
+4,"According to Tom M. Mitchell, when does a computer program learn from experience?",a : When it performs perfectly | b : When its performance improves with experience | c : When it fails every time | d : When it stays the same,b
+5,Which book provides a representative view of research into machine learning during the 1960s?,a : The Organization of Behavior | b : Learning Machines | c : Computing Machinery and Intelligence | d : Cybernetics,b
+6,What did Arthur Samuel's program in the 1950s calculate the winning chance for?,a : Chess | b : Checkers | c : Poker | d : Monopoly,b
