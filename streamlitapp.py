@@ -13,7 +13,8 @@ from src.mcqgenrator.logger import logging
 # load_dotenv()
 
 # Reading the JSON file
-json_file_path = r"C:\github\openai\MCQ_genrator\response.json"
+# Construct the file path relative to the current directory
+json_file_path = "./response.json"
 with open(json_file_path, "r") as file:
     response_json = json.load(file)
 
