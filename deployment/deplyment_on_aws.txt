@@ -1,0 +1,136 @@
+sudo apt update 
+
+sudo apt-get update
+
+
+sudo apt upgrade -y
+
+
+sudo apt install git unzip curl tar make sudo vim wget -y 
+
+
+git clone https://github.com/riphunter7001x/MCQ_Creator_Application_using_Langchain_and_OpenAI.git
+
+
+ls 
+
+
+make folder .env
+
+touch .env
+
+open .env file to  setup file api key
+
+OPENAI_API_KEY = "api_key_here"
+
+vi .env
+
+
+paste api key 
+
+press ESC key 
+(it will be save  that)
+:wq 
+(leave this )
+
+to check what inside the folder 
+
+cat .env
+
+lest install python -y
+
+sudo apt install python3-pip
+
+lest install reqired libraries 
+
+pip3 install -r requirements.txt
+
+
+#lest  run our application 
+
+python3 -m streamlit run streamlitapp.py 
+
+edit Security groups
+
+add rule in inbound rule 
+		custom TCP  
+			port no : 8501(by default used by stramlit)
+last step 
+get public IP instance 
+ ex 52.90.100.101
+now add port number here 
+52.90.100.101:8501
+
+--------------------------------------------------------------------------
+
+
+
+Certainly! Below is an improved and clearer step-by-step deployment guide for setting up your application on an EC2 instance:
+
+1. **Update Package Manager:**
+   ```bash
+   sudo apt update
+   ```
+
+2. **Upgrade Installed Packages:**
+   ```bash
+   sudo apt upgrade -y
+   ```
+
+3. **Install Required Packages:**
+   ```bash
+   sudo apt install git unzip curl tar make sudo vim wget -y
+   ```
+
+4. **Clone Your Application Repository:**
+   ```bash
+   git clone https://github.com/riphunter7001x/MCQ_Creator_Application_using_Langchain_and_OpenAI.git
+   ```
+
+5. **Navigate to the Cloned Directory:**
+   ```bash
+   cd MCQ_Creator_Application_using_Langchain_and_OpenAI
+   ```
+
+6. **Create and Set Up Environment File:**
+   ```bash
+   touch .env
+   echo "OPENAI_API_KEY=<api_key_here>" >> .env
+   ```
+
+7. **Install Python and Pip:**
+   ```bash
+   sudo apt install python3-pip -y
+   ```
+
+8. **Install Required Python Libraries:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+9. **Run the Application:**
+   ```bash
+   python3 -m streamlit run streamlitapp.py
+   ```
+
+Pull Updates from GitHub:
+If there are any updates to the application on GitHub, you can pull them using the following command:
+
+git pull 
+
+
+10. **Edit Security Groups in AWS Console:**
+    - Add a new inbound rule:
+        - Type: Custom TCP
+        - Port: 8501 (default port used by Streamlit)
+        - Source: 0.0.0.0/0 (or specify the desired IP range)
+  
+11. **Access the Application:**
+    - Get the public IP address of your EC2 instance from the AWS console.
+    - Open a web browser and enter the following in the address bar:
+      ```
+      <public-ip>:8501
+      ```
+      Replace `<public-ip>` with the actual public IP address of your EC2 instance.
+
+By following these steps, you'll be able to set up and run your Streamlit application on an EC2 instance with ease. Ensure that you have appropriate permissions and access rights to perform these actions on your EC2 instance.
